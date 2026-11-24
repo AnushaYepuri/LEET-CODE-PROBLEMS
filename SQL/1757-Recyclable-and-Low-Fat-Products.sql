@@ -1,0 +1,3 @@
+# Write your MySQL query statement beloSELECT 
+SELECT P.PRODUCT_ID FROM PRODUCTS AS P
+WHERE P.LOW_FATS = 'Y' AND P.RECYCLABLE='Y';
